@@ -1,0 +1,92 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+   margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsla(0, 85%, 29%, 0.406);
+    
+}
+    
+    
+
+
+.calculator {
+    border: 1px solid #989898;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.XXn9FBXj6aLs4vfWBU2PHAHaHa&pid=Api&P=0&h=220');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.calculator {
+    border: 1px solid #eedede;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #cccccce2;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button:active {
+    background-color: #e0e0e0;
+}
+
+button:nth-child(4n) {
+    background-color: #f9f9f9;
+}
+
+button:nth-child(4n):hover {
+    background-color: #f2f2f2;
+}
+
+button:nth-child(4n):active {
+    background-color: #e6e6e6;
+}
+
+button#clear {
+    background-color: #ff9999;
+}
+
+button#clear:hover {
+    background-color: #ff6666;
+}
+
+button#clear:active {
+    background-color: #ff3333;
+}
